@@ -1,0 +1,44 @@
+Ayuda en GNU/Linux
+
+Ejercicio_1:
+Utilice el comando whatis para determinar qué hace lo siguiente: ls, cp, rm, apropos, man,sudoers, xorg.conf
+1.1-¿Cuáles son comandos?
+1.2-Cuáles son archivos de configuración?
+
+
+Reto_1: 
+El comando whatis puede procesar más de una solicitud a la vez, ¿cómo haría usted para saber la descripción de más de un programa a la vez en una sola línea de comandos?
+-> Pista: "$man whatis"
+
+
+
+Ejercicio_2:
+2.1-Utilizando el comando "man" descubra la tarea para cada comando:
+ls: Descubra como listar un archivo oculto (archivos que empiezan con .) en un directorio y utilícelo para inspeccionar su carpeta personal en el sistema (/home/usuario/).
+
+
+Ejercicio_3:
+3.1-Utilice el comando "help" dentro de su terminal. Determine la función del comando "history" utilizando el comando integrado de bash help de la siguiente forma $ help history.
+Ejecute el comando, ¿qué hace?
+3.2-Ejecute el comado:
+ $ echo –help
+ ¿Qué sucede?, Ahora ejecute:  
+ $ help echo
+¿Puede determinar el funcionamiento de echo? 
+
+
+
+Comandos de Procesamiento de Texto
+
+
+Ejercicio_1: 
+1.1-Muestre en terminal su ubicación actual. Cree en el CLI el directorio Documents (o Documentos) la carpeta "Ejercicios_Taller_Linux" y cambiese a dicho directorio.
+1.2- Cree 2 directorios llamados "directorio1" y "directorio2", y cree un archivo vacío en directorio1 llamado "prueba". Pista: use el comando "touch".
+1.3- Liste los contenidos de su directorio home ( en el CLI se ve como "~") incluyendo los archivos ocultos. Pista: vea las opciones de "ls"
+
+Reto_1:
+Copie el archivo ".bash_history" al "directorio1". Cambie de nombre al archivo ".bash_history" a "bash_history". Liste de forma detallada el contenido del archivo.
+
+
+Ejercicio_2:
+2.1- Para saber dónde se ubica el archivo (script) que se ejecuta cuando escribe un comando en la terminal puede usar el comando "which". Los scripts que se ejecutan con cualquier comando o cualquier programa que se pueda correr en la terminal están ubicados en una lista de direcciones almacenadas en la variable de entorno $PATH. Para comprobar esto observe mediante "which" la ubicación del script de cualquier comando que haya usado hasta ahora y verifique que esta dirección está contenida dentro de la variable $PATH (Pista: $ echo $PATH)
