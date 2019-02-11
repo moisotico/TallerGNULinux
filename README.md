@@ -3,6 +3,7 @@ Taller introductorio de GNU/Linux para los cursos libres IEEE rama estudiantil U
 
 En caso de dudas se puede contactar a:
 
-Moisés F. Campos Zepeda <moiso.camposcr@gmail.com>
+Moisés F. Campos Zepeda <moiso.camposcr@gmail.com> <br/>
 Juan Pablo Andrade González <juanpandradeg@gmail.com> <br/> 
 
+Las presentaciones vistas se pueden ver en: <https://drive.google.com/open?id=1ZE8cg92J5G95QljMNOk281zUArGp73eS>
