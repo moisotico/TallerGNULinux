@@ -3,5 +3,5 @@ Taller introductorio de GNU/Linux para los cursos libres IEEE rama estudiantil U
 
 En caso de dudas se puede contactar a:
 
-Juan Pablo Andrade González <juanpandradeg@gmail.com> \n
+Juan Pablo Andrade González <juanpandradeg@gmail.com> <br/> 
 Moisés F. Campos Zepeda <moiso.camposcr@gmail.com>
