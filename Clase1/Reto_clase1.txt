@@ -34,7 +34,7 @@ Comandos de Procesamiento de Texto
 Ejercicio_1: 
 1.1-Muestre en terminal su ubicación actual. Cree en el CLI el directorio Documents (o Documentos) la carpeta "Ejercicios_Taller_Linux" y cambiese a dicho directorio.
 1.2- Cree 2 directorios llamados "directorio1" y "directorio2", y cree un archivo vacío en directorio1 llamado "prueba". Pista: use el comando "touch".
-1.3- Liste los contenidos de su directorio home ( en el CLI se ve como "~") incluyendo los archivos ocultos. Pista: vea las opciones de "ls"
+1.3- Liste los contenidos de su home directorio ( en el CLI se ve como "~") incluyendo los archivos ocultos. Pista: vea las opciones de "ls"
 
 Reto_1:
 Copie el archivo ".bash_history" al "directorio1". Cambie de nombre al archivo ".bash_history" a "bash_history". Liste de forma detallada el contenido del archivo.
@@ -42,3 +42,7 @@ Copie el archivo ".bash_history" al "directorio1". Cambie de nombre al archivo "
 
 Ejercicio_2:
 2.1- Para saber dónde se ubica el archivo (script) que se ejecuta cuando escribe un comando en la terminal puede usar el comando "which". Los scripts que se ejecutan con cualquier comando o cualquier programa que se pueda correr en la terminal están ubicados en una lista de direcciones almacenadas en la variable de entorno $PATH. Para comprobar esto observe mediante "which" la ubicación del script de cualquier comando que haya usado hasta ahora y verifique que esta dirección está contenida dentro de la variable $PATH (Pista: $ echo $PATH)
+
+
+
+Fecha de entrega: Jueves 14 de Febrero, 2019, antes de medianoche.
