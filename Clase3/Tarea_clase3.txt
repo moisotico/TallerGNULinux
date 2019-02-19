@@ -1,3 +1,7 @@
+Tarea #3
+Fecha de entrega: Viernes 22/02
+
+
 File Globbing y Expresiones Regulares
 Ejercicio_1:
 1.1-En su carpeta de home ($cd ~) muestre que ocurre si ejecuta el comando $echo D*n*, ¿Cuántas sub-carpetas aparecen?
