@@ -1,0 +1,40 @@
+File Globbing y Expresiones Regulares
+Ejercicio_1:
+1.1-En su carpeta de home ($cd ~) muestre que ocurre si ejecuta el comando $echo D*n*, ¿Cuántas sub-carpetas aparecen?
+1.2-El simbolo "!" se utiliza para negar a la hora de definir un rango, ¿Qué pasa si ejecuto el mismo comando pero agrego este signo, es decir ejecuto?:
+$echo !(D*n*)
+
+
+
+Ejercicio_2:
+La opción -i de $locate hace que la busqueda deje de ser "case sensitive", es decir que no distinga entre letras mayusculas y minúsculas.
+Para este ejercicio, ejecute primero el siguiente comando:
+$sudo updatedb
+Seguido, mediante "locate --regex -i" aplicado a una expresión regular, busque su tarea 1 (en caso de no tenerla dentro del sistema operativo, puede utilizar el comando touch y crear un archivo "tarea1") ¿Hay alguna manera de mostrar un solo resultado con expresiones regulares?
+
+
+Reto_1:
+Haga un folder llamado test usando:
+$mkdir test
+$touch test/ {rot,ret,root,reet,rooot,reeet,rut,dummy}
+
+Ahora, utilizando expresiones regulares y $grep muestre los primeros 6 archivos. Pista: reucerde el uso de "[]" y "*".
+
+
+Git y Bash Scripting
+
+Ejercicio_1:
+Escriba un script que:
+1.1-Haga $ls para un archivo no existente, y luego muestre el valor de retorno resultante.
+1.2-Cree un archivo que corra en este $ls, y una vez más muestre el valor de retorno resultante.
+1.3-Comente las líneas importantes del script para mejorar su legibilidad.
+Nota: se pueden hacer ambas cosas en el mismo script.
+
+Ejercicio_2:
+2.1-Cree una cuenta en alguna página de repositorios (github.com, gitlab.com, git.ucr.ac.cr), y haga un repositorio. Puede revisar un manual en línea en: http://rogerdudler.github.io/git-guide/index.es.html.
+2.2-En dicho repositorio suba el script del Ejercicio_1 con los comandos de git vistos en clase y en el manual en línea del inciso anterior; adjunte el enlace a su repositorio.
+
+Opcional: Haga un README.MD con una decripción del script.
+
+
+
