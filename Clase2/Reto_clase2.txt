@@ -6,12 +6,11 @@ $ mkdir ~/Documents/vim_prueba1
 Ahora entre en esa carpeta y ejecute vim:
 $ cd ~/Documents/
 $ vim vim_prueba1/prueba1
-Estando dentro del programa escriba:
-"version esto les dará bastante información acerca de que caracte-rísticas soporta el programa. Si no puede leer todo el documento puedebajar con las teclas direccionales y al llegar al nal le indicarán que pre-sione cualquier tecla para salir."
+Estando dentro del programa escriba: <:version> esto les dará bastante información acerca de que características soporta el programa. Si no puede leer todo el documento baje con las teclas direccionales y al llegar al final le indicarán que presione cualquier tecla para salir.
 
 
 Ejercicio_2:
-Accediendo a la carpeta que creó en el Ejercicio_1 de cree un archivo:
+Accediendo a la carpeta que creó en el Ejercicio_1, cree un archivo:
 $ vim archivo1
 Presione la tecla <i> para pasar al modo de inserción de texto, escriba su nombre completo, luego presione enter para pasar a la siguiente línea, escriba la provincia en la que vive actualmente, en la siguiente línea escriba su correo electrónico. Pase a la siguiente línea y salga del modo de inserción con la tecla <esc>.
 Ahora pase al modo de comandos presionando la tecla de los dos puntos <:>  y escriba el comando :q. ¿qué pasó?
@@ -33,7 +32,7 @@ Modelo de Seguridad en GNU/Linux
 Ejercicio_1:
 Existen opciones por defecto al crear un usuario, consúltelas utilizando el comando:
     $ useradd -D
-Estas se pueden modicar en el archivo "/etc/default/useradd" además el archivo "/etc/login.defs" posee variables que dictan el comportamientode esta herramienta, revise este archivo, todas las variables tienen comentarios bastante explicativos de lo que hacen. La forma más simple para crear usuarios en el sistema es utilizando el comando "useradd".
+Estas se pueden modicar en el archivo "/etc/default/useradd" además el archivo "/etc/login.defs" posee variables que dictan el comportamiento de esta herramienta, revise este archivo, todas las variables tienen comentarios bastante explicativos de lo que hacen. La forma más simple para crear usuarios en el sistema es utilizando el comando "useradd".
 1.1 Agreugue un usuario con "useradd":
     $ sudo useradd usuario1
 1.2 Ahora hay que asignarle una clave a usuario1, esto se logra con el comando passwd:
@@ -45,11 +44,8 @@ Ejercicio_2:
 2.1 Cámbiese de usuario al anterior, esto lo puede hacer de dos formas:
     1- Ejecutando el comando "su" que utilizamos en el Ejercicio_1 de este tema.
     2- La otra es simplemente escribiendo "exit" o Ctrl+D , esto cerrará la sesión del usuario1 y volverá a la del usuario original
-
-
 2.2 Determine a cuales grupos pertenece usted y a cuales pertenece usuario1. Ejecute el comando:
     $ groups <NOMBRE_DE_USUARIO>
-
 2.3 Vamos a crear un nuevo grupo y meter a usuario1:
     $ sudo groupadd nuevo_grupo
 Para agregar un usuario a un grupo ya existente se utiliza el comando "modprobe":
@@ -59,12 +55,12 @@ Para ver los cambios con el comando "id" debe cerrar la sesión y abrirla de nue
 
 Ejercicio_3:
 Abra un terminal y ejecute el siguiente comando:
-    $ sudo mkdir-p /tema4/parte1
+    $ sudo mkdir -p /tema4/parte1
     $ sudo chmod 544 /tema4
-    $ ls -ld /tema4
+    $ ls -l /tema4
     $ cd /tema4/
 ¿Qué sucedió?
-3.1 Determine con que permisos secreó la carpeta tema4
+3.1 Determine con que permisos se creó la carpeta tema4
 3.2 Cambie los permisos, solo de la carpeta "tema4" de forma que solo usted tenga acceso total, los usuarios que pertenezcan a su grupo podrán leer y ejecutarla carpeta (es decir que puedan verla con "ls" y podrán acceder a ella con "cd") ylos otros usuarios solo podrán listarla.
 3.3 En otra terminal inicie sesión con usuario1 y escriba el comando:
     $ ls /tema4
